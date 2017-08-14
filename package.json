@@ -1,0 +1,23 @@
+{
+  "name": "evil-insult-bot",
+  "version": "1.0.0",
+  "description": "Discord bot that utilizes the evil-insult-generator api",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "insult",
+    "generator"
+  ],
+  "author": "Astrydax, for custom bots email astrydax@gmail.com",
+  "license": "unlicense",
+  "dependencies": {
+    "discord.js": "^11.1.0",
+    "request": "^2.81.0",
+    "sqlite": "^2.8.0",
+    "unescape": "^1.0.1"
+  }
+}
