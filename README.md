@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/EvilInsultGenerator/discord-bot.svg?branch=master)](https://travis-ci.org/EvilInsultGenerator/discord-bot)
+[![Build Status](https://travis-ci.org/Astrydax/discord-bot.svg?branch=master)](https://travis-ci.org/EvilInsultGenerator/discord-bot)
 [![Coverage Status](https://coveralls.io/repos/github/EvilInsultGenerator/discord-bot/badge.svg?branch=master)](https://coveralls.io/github/EvilInsultGenerator/discord-bot?branch=master)
 [![codebeat badge](https://codebeat.co/badges/4b25afd3-ec15-40c6-a2ad-8f6624b28a72)](https://codebeat.co/projects/github-com-evilinsultgenerator-discord-bot-master)
 [![David](https://img.shields.io/david/EvilInsultGenerator/discord-bot.svg)](https://david-dm.org/EvilInsultGenerator/discord-bot)
