@@ -4,7 +4,7 @@
   "description": "Discord bot that utilizes the evil-insult-generator api",
   "main": "main.js",
   "scripts": {
-    "test": "main.js"
+    "test": "node main.js"
   },
   "keywords": [
     "discord",
