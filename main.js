@@ -42,7 +42,7 @@ bot.on('message', message => {
   //console.log(command);
   console.log("COMMAND: " + message.author.username + ": " + message.content);
 
-  if (command[0] === "insult") {
+  if (command[0] === "insult" || command[0] === "fuck" || command[0] === "generate") {
     getUserSettings(message.author.id).then(language => {
       console.log("user settings: " + language);
       var url = config.mainURL
