@@ -41,6 +41,10 @@ bot.on('message', message => {
   let command = message.content.toLowerCase().slice(prefix.length).split(' ');
   //console.log(command);
   console.log("COMMAND: " + message.author.username + ": " + message.content);
+  
+  if (command[0] === "help") {
+    message.channel.send("To generate an insult: !generate or !insult or !fuck\nTo set the language: !language\nTo visit the homepage: !homepage\nTo get help: !help")
+  }
 
   if (command[0] === "insult" || command[0] === "fuck" || command[0] === "generate") {
     getUserSettings(message.author.id).then(language => {
