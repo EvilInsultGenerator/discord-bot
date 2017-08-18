@@ -42,7 +42,7 @@ bot.on('message', message => {
   //console.log(command);
   console.log("COMMAND: " + message.author.username + ": " + message.content);
 
-  if (command[0] === "insult" || command[0] === "fuck" || command[0] === "generate") {
+  if (command[0] === "insult") {
     getUserSettings(message.author.id).then(language => {
       console.log("user settings: " + language);
       var url = config.mainURL
@@ -70,6 +70,10 @@ bot.on('message', message => {
         }
       })
     }).catch(err => console.log(err));
+  }
+  
+  if(command[0] === "help"){
+  message.channel.send("To generate an insult: !generate or !insult or !fuck\nTo set the language: !language\nTo visit the homepage: !homepage\nTo get help: !help")
   }
 
     if (command[0] === "language") {
