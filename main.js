@@ -71,6 +71,10 @@ bot.on('message', message => {
       })
     }).catch(err => console.log(err));
   }
+  
+   if (command[0] === "homepage") {
+    message.channel.send("Visit us https://evilinsult.com/%22%3EEvilInsult.com");
+  }
 
     if (command[0] === "language") {
     if (!languages.includes(command[1])) return message.reply("That language is not supported. \n" + languagesStr);
