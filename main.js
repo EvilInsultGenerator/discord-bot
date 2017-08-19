@@ -71,13 +71,15 @@ bot.on('message', message => {
       })
     }).catch(err => console.log(err));
   }
+  
+  if(command[0] === "help"){
+  message.channel.send("To generate an insult: !generate or !insult or !fuck\nTo set the language: !language\nTo visit the homepage: !homepage\nTo get help: !help")
+  }
 
-  if (command[0] === "language") {
-    initUser(message.author.id).then(() => {
-      if (!languages.includes(command[1])) return message.reply("That language is not supported. \n" + languagesStr);
-      setLanguage(message.author.id, command[1]);
-      message.reply("Language has been set to " + command[1]);
-    }).catch(err => console.log(err));
+    if (command[0] === "language") {
+    if (!languages.includes(command[1])) return message.reply("That language is not supported. \n" + languagesStr);
+    setLanguage(message.author.id, command[1]);
+    message.reply("Language has been set to " + command[1]);
   }
 });
 

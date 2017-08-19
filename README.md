@@ -82,9 +82,20 @@ We love to get in touch with you. Feel welcome to email your questions and feedb
 >
 > For more information, please refer to <http://unlicense.org/>
 
+## Usage
+
+You can use [this link](https://discordapp.com/oauth2/authorize?permissions=0&scope=bot&client_id=348181398013870080) to use the bot on your [Discord server](https://discordapp.com/) or to send him [DMs](https://support.discordapp.com/hc/en-us/articles/204849987-What-are-Direct-Messages-PM-DM-).
+The bot supports those commands:
+`!insult` <br>
+`!generate` <br>
+`!fuck` <br>
+`!language` <br>
+`!homepage` <br>
+`!help` <br>
+
 ## Screenshots
-_TBD_
-![Evil Insult Generator PHP Telegram Bot Screenshot](https://cloud.githubusercontent.com/assets/23016876/19628589/82888d5c-9961-11e6-8bc3-dceeec130800.png)
+
+![Evil Insult Generator Discord Bot Screenshot](https://user-images.githubusercontent.com/16610908/29475712-4306c40a-8461-11e7-8cfc-f44d69cce8d9.PNG)
 
 ### Credits
 I am deeply grateful that [JetBrains](https://www.jetbrains.com/) sponsored two licenses of [WebStorm](https://www.jetbrains.com/webstorm/)
