@@ -6,6 +6,7 @@
 [![David](https://img.shields.io/david/EvilInsultGenerator/discord-bot.svg)](https://david-dm.org/EvilInsultGenerator/discord-bot)
 [![bitHound Overall Score](https://www.bithound.io/github/EvilInsultGenerator/discord-bot/badges/score.svg)](https://www.bithound.io/github/EvilInsultGenerator/discord-bot)
 [![Known Vulnerabilities](https://snyk.io/test/github/evilinsultgenerator/discord-bot/badge.svg)](https://snyk.io/test/github/evilinsultgenerator/discord-bot)
+[![Website](https://img.shields.io/website-up-down-green-red/https/shields.io.svg)](https://evilinsult.com)
 
 Evil Insult Generator's goal is to offer the most evil insults. Please help us to reach this honorable purpose by submitting insults
 via mail.
