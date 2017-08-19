@@ -1,11 +1,11 @@
+# Evil Insult Generator Discord Bot
+
 [![Build Status](https://travis-ci.org/EvilInsultGenerator/discord-bot.svg?branch=master)](https://travis-ci.org/EvilInsultGenerator/discord-bot)
 [![codebeat badge](https://codebeat.co/badges/4b25afd3-ec15-40c6-a2ad-8f6624b28a72)](https://codebeat.co/projects/github-com-evilinsultgenerator-discord-bot-master)
 [![David](https://img.shields.io/david/EvilInsultGenerator/discord-bot.svg)](https://david-dm.org/EvilInsultGenerator/discord-bot)
 [![bitHound Overall Score](https://www.bithound.io/github/EvilInsultGenerator/discord-bot/badges/score.svg)](https://www.bithound.io/github/EvilInsultGenerator/discord-bot)
 [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/1187/badge)](https://bestpractices.coreinfrastructure.org/projects/1187)
 [![Known Vulnerabilities](https://snyk.io/test/github/evilinsultgenerator/discord-bot/badge.svg)](https://snyk.io/test/github/evilinsultgenerator/discord-bot)
-
-# Evil Insult Generator Discord Bot
 
 Evil Insult Generator's goal is to offer the most evil insults. Please help us to reach this honorable purpose by submitting insults
 via mail.
