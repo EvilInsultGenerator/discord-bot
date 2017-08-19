@@ -1,5 +1,6 @@
 # Evil Insult Generator Discord Bot
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/14a1aee1b04b4e13a7ef27fa4b80517f)](https://www.codacy.com/app/EvilInsultGenerator/discord-bot?utm_source=github.com&utm_medium=referral&utm_content=EvilInsultGenerator/discord-bot&utm_campaign=badger)
 [![Build Status](https://travis-ci.org/EvilInsultGenerator/discord-bot.svg?branch=master)](https://travis-ci.org/EvilInsultGenerator/discord-bot)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/14a1aee1b04b4e13a7ef27fa4b80517f)](https://www.codacy.com/app/EvilInsultGenerator/discord-bot?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=EvilInsultGenerator/discord-bot&amp;utm_campaign=Badge_Grade)
 [![codebeat badge](https://codebeat.co/badges/4b25afd3-ec15-40c6-a2ad-8f6624b28a72)](https://codebeat.co/projects/github-com-evilinsultgenerator-discord-bot-master)
