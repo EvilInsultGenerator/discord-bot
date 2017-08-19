@@ -40,7 +40,7 @@ via mail.
 	9. Next we need to connect to the droplet using an FTP client. For this example we're going to use [FileZilla](https://filezilla-project.org/).
 	10. Near the top of the FileZilla window you will see the fields: "Host", "Username", "Password", and "Port". In Host, put the IP to your droplet server. In username put the username you were emailed. In password, put the new password you created in step 7. In port, put 22. Click connect.
 	11. On the left half of FileZilla is your local machine and the right half is your remote server. Drag the entire folder you downloaded and configured in step 1 to the window on the right to upload it to your droplet.
-	12. Back in the droplet console window navigate to the bot folder using the command: `cd discord-bot-master`. If you changed the name of the folder use `cd [folder name]`
+	12. Back in the droplet console window navigate to the bot folder using the command: `cd discord-bot-master`. If you changed the name of the folder use `cd [folder name]`.
 	13. Run the command: `npm install`
 	14. Your bot is now configured and ready to launch. Run the command: `node main.js`
 
