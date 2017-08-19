@@ -28,7 +28,8 @@ via mail.
 	8. Your bot is now configured and ready to launch. run the command: node main.js
 
 *	### VPS
-    Each VPS service will have varying steps for connecting to your server. We will use Digital Ocean Droplet in this example
+    Each VPS service will have varying steps for connecting to your server. We will use DigitalOcean droplet in this example.
+    But you are welcome to use any other provider.
     1. Click "Clone or Download" at the top of this page. Click "Download Zip" and extract the files.
     2. Next create a discord account for your bot and add it to your discord server. There is a very good guide explaining this [here](https://github.com/reactiflux/discord-irc/wiki/Creating-a-discord-bot-&-getting-a-token)
     3. Open config.json with a text editor program of your choice.
