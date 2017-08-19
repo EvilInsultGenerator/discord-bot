@@ -24,7 +24,7 @@ via mail.
 	5. While in the root folder, run the command: `npm install`
 	6. Open config.json with a text editor program of your choice.
 	7. Replace "YOUR BOT TOKEN" with your bot token you created in step 2 above
-	8. Your bot is now configured and ready to launch. run the command: `node main.js`
+	8. Your bot is now configured and ready to launch. Run the command: `node main.js`
 
 *	### VPS
     Each VPS service will have varying steps for connecting to your server. We will use a [DigitalOcean](https://m.do.co/c/d4e804717547) (get a $10 credit using [this](https://m.do.co/c/d4e804717547) link) droplet in this example.
