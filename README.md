@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/EvilInsultGenerator/discord-bot.svg?branch=master)](https://travis-ci.org/EvilInsultGenerator/discord-bot)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/14a1aee1b04b4e13a7ef27fa4b80517f)](https://www.codacy.com/app/EvilInsultGenerator/discord-bot?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=EvilInsultGenerator/discord-bot&amp;utm_campaign=Badge_Grade)
-CODEBEAT
+[![codebeat badge](https://codebeat.co/badges/4b25afd3-ec15-40c6-a2ad-8f6624b28a72)](https://codebeat.co/projects/github-com-evilinsultgenerator-discord-bot-master)
 [![David](https://img.shields.io/david/EvilInsultGenerator/discord-bot.svg)](https://david-dm.org/EvilInsultGenerator/discord-bot)
 [![bitHound Overall Score](https://www.bithound.io/github/EvilInsultGenerator/discord-bot/badges/score.svg)](https://www.bithound.io/github/EvilInsultGenerator/discord-bot)
 [![Known Vulnerabilities](https://snyk.io/test/github/evilinsultgenerator/discord-bot/badge.svg)](https://snyk.io/test/github/evilinsultgenerator/discord-bot)
