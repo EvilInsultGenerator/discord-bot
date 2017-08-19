@@ -18,9 +18,9 @@ via mail.
 
 
 *	### PC/Mac
-    1. First you will need to have NodeJS installed on your machine. You can find the latest version [here](https://nodejs.org/en/).
-    2. Next create a Discord account for your bot and add it to your Discord server. There is a very good guide explaining this [here](https://github.com/reactiflux/discord-irc/wiki/Creating-a-discord-bot-&-getting-a-token)
-	3. Click "Clone or Download" at the top of this page. Click "Download Zip" and extract the files.
+    1. First you will need to have [Node.js](https://nodejs.org/) installed on your machine. You can find the latest version [here](https://nodejs.org/).
+    2. Next create a [Discord](https://discordapp.com/) account for your bot and add it to your Discord server. There is a very good guide explaining this __[here](https://github.com/reactiflux/discord-irc/wiki/Creating-a-discord-bot-&-getting-a-token)__.
+	3. Click "Clone or Download" at the top of this page. Click "Download ZIP" and extract the files.
 	4. Open a command terminal and navigate to the root folder of the bot.
 	5. While in the root folder, run the command: `npm install`
 	6. Open config.json with a text editor program of your choice.
@@ -28,22 +28,22 @@ via mail.
 	8. Your bot is now configured and ready to launch. run the command: `node main.js`
 
 *	### VPS
-    Each VPS service will have varying steps for connecting to your server. We will use a [DigitalOcean](https://m.do.co/c/d4e804717547)(get a $10 credit using [this](https://m.do.co/c/d4e804717547) link) droplet in this example.
+    Each VPS service will have varying steps for connecting to your server. We will use a [DigitalOcean](https://m.do.co/c/d4e804717547) (get a $10 credit using [this](https://m.do.co/c/d4e804717547) link) droplet in this example.
     But you are welcome to use any other provider.
     1. Click "Clone or Download" at the top of this page. Click "Download ZIP" and extract the files.
-    2. Next create a discord account for your bot and add it to your discord server. There is a very good guide explaining this [here](https://github.com/reactiflux/discord-irc/wiki/Creating-a-discord-bot-&-getting-a-token).
+    2. Next create a discord account for your bot and add it to your discord server. There is a very good guide explaining this __[here](https://github.com/reactiflux/discord-irc/wiki/Creating-a-discord-bot-&-getting-a-token)__.
     3. Open config.json with a text editor program of your choice.
 	4. Replace "YOUR BOT TOKEN" with your bot token you created in step 2 above
 	5. Login to DigitalOcean and create a new droplet. Selecting Ubuntu 16.04 is recommended. Then choose a server size and region.
 	6. You will recieve an email from DigitalOcean with a username and password for your new droplet if you did not [setup SSH](https://www.digitalocean.com/community/tutorials/how-to-connect-to-your-droplet-with-ssh).
 	7. Go to the "Access" tab and click "Launch Console" and login with the username and password you received. You will be asked to change your password.
-	8. Install NodeJS using [these commands](https://tecadmin.net/install-latest-nodejs-npm-on-ubuntu/)
-	9. Next we need to connect to the droplet using an FTP client. For this example we're goint to use [FileZilla](https://filezilla-project.org/)
+	8. Install Node.js using [these commands](https://tecadmin.net/install-latest-nodejs-npm-on-ubuntu/)
+	9. Next we need to connect to the droplet using an FTP client. For this example we're going to use [FileZilla](https://filezilla-project.org/).
 	10. Near the top of the FileZilla window you will see the fields: "Host", "Username", "Password", and "Port". In Host, put the IP to your droplet server. In username put the username you were emailed. In password, put the new password you created in step 7. In port, put 22. Click connect.
 	11. On the left half of FileZilla is your local machine and the right half is your remote server. Drag the entire folder you downloaded and configured in step 1 to the window on the right to upload it to your droplet.
-	12. Back in the Droplet console window. Navigate to bot folder using the command: `cd discord-bot-master`. If changed the name of the folder use `cd [folder name]`
-	13. run the command: `npm install`
-	14. Your bot is now configured and ready to launch. run the command: `node main.js`
+	12. Back in the droplet console window navigate to the bot folder using the command: `cd discord-bot-master`. If you changed the name of the folder use `cd [folder name]`
+	13. Run the command: `npm install`
+	14. Your bot is now configured and ready to launch. Run the command: `node main.js`
 
 
 ## Using pm2
@@ -100,5 +100,5 @@ The bot supports those commands: <br>
 
 ### Credits
 I am deeply grateful that [JetBrains](https://www.jetbrains.com/) sponsored two licenses of [WebStorm](https://www.jetbrains.com/webstorm/)
-[![WebStorm](https://user-images.githubusercontent.com/16610908/28754026-65f4866a-753d-11e7-97cb-9c59fffbc9a6.png)](https://www.jetbrains.com/webstorm/)
+[![WebStorm](https://user-images.githubusercontent.com/16610908/28754026-65f4866a-753d-11e7-97cb-9c59fffbc9a6.png)](https://www.jetbrains.com/webstorm/).
 
