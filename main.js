@@ -76,13 +76,13 @@ bot.on('message', message => {
     }).catch(err => console.log(err));
   }
   
-<<<<<<< HEAD
+
   if(command[0] === "help"){
   message.channel.send("To generate an insult: !generate or !insult or !fuck\nTo set the language: !language\nTo visit the homepage: !homepage\nTo get help: !help")
-=======
+  }
+  
    if (command[0] === "homepage") {
     message.channel.send("Visit us https://evilinsult.com/%22%3EEvilInsult.com");
->>>>>>> 61814cbbef68e6b7f2c1399087667e987afd3902
   }
 
     if (command[0] === "language") {
