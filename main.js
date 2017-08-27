@@ -24,7 +24,7 @@ console.log("Supported languages: " + languagesStr);
 bot.login(config.token);
 
 
-var ver = "1.1"
+var ver = "1.2"
 
 bot.on("ready", () => {
   console.log(`Logged in as ${bot.user.username}!`);
