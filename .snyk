@@ -1,0 +1,30 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.10.2
+# ignores vulnerabilities until expiry date; change duration by modifying expiry date
+ignore:
+  'npm:hoek:20180212':
+    - sqlite > sqlite3 > node-pre-gyp > hawk > hoek:
+        reason: None given
+        expires: '2018-04-06T19:06:44.792Z'
+    - sqlite > sqlite3 > node-pre-gyp > hawk > boom > hoek:
+        reason: None given
+        expires: '2018-04-06T19:06:44.792Z'
+    - sqlite > sqlite3 > node-pre-gyp > hawk > cryptiles > boom > hoek:
+        reason: None given
+        expires: '2018-04-06T19:06:44.792Z'
+    - sqlite > sqlite3 > node-pre-gyp > request > hawk > cryptiles > boom > hoek:
+        reason: None given
+        expires: '2018-04-06T19:06:44.793Z'
+    - sqlite > sqlite3 > node-pre-gyp > request > hawk > boom > hoek:
+        reason: None given
+        expires: '2018-04-06T19:06:44.793Z'
+    - sqlite > sqlite3 > node-pre-gyp > hawk > sntp > hoek:
+        reason: None given
+        expires: '2018-04-06T19:06:44.793Z'
+    - sqlite > sqlite3 > node-pre-gyp > request > hawk > sntp > hoek:
+        reason: None given
+        expires: '2018-04-06T19:06:44.793Z'
+    - sqlite > sqlite3 > node-pre-gyp > request > hawk > hoek:
+        reason: None given
+        expires: '2018-04-06T19:06:44.793Z'
+patch: {}
