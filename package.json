@@ -26,8 +26,8 @@
 		"email": "marvin@evilinsult.com"
 	},
 	"dependencies": {
-		"discord.js": "^11.1.0",
-		"request": "^2.81.0",
+		"discord.js": "^11.2.0",
+		"request": "^2.84.0",
 		"sqlite": "^2.8.0",
 		"unescape": "^1.0.1"
 	},
