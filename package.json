@@ -28,7 +28,7 @@
 	"dependencies": {
 		"discord.js": "^11.4.0",
 		"request": "^2.84.0",
-		"sqlite": "^2.8.0",
+		"sqlite": "^3.0.0",
 		"unescape": "^1.0.1"
 	},
 	"repository": {
