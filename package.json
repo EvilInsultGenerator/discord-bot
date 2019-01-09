@@ -1,38 +1,44 @@
 {
-	"name": "evil-insult-bot",
-	"version": "1.0.0",
-	"description": "Discord bot that utilizes the Evil Insult Generator API",
-	"homepage": "https://evilinsult.com",
-	"main": "main.js",
-	"scripts": {
-		"test": "node main.js"
-	},
-	"keywords": [
-		"discord",
-		"bot",
-		"evil",
-		"insult",
-		"generator",
-		"eig"
-	],
-	"author": "Astrydax (for custom bots email <astrydax@gmail.com> (astrydax@gmail.com)) and the <EIG team> (marvin@evilinsult.com",
-	"contributors": [{
-		"name": "Example",
-		"email": "foo.bar@example.com"
-	}],
-	"license": "unlicense",
-	"bugs": {
-		"url": "https://github.com/EvilInsultGenerator/discord-bot/issues",
-		"email": "marvin@evilinsult.com"
-	},
-	"dependencies": {
-		"discord.js": "^11.2.0",
-		"request": "^2.81.0",
-		"sqlite": "^2.8.0",
-		"unescape": "^1.0.1"
-	},
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/EvilInsultGenerator/discord-bot.git"
-	}
+  "name": "evil-insult-bot",
+  "version": "1.0.0",
+  "description": "Discord bot that utilizes the Evil Insult Generator API",
+  "homepage": "https://evilinsult.com",
+  "main": "main.js",
+  "scripts": {
+    "test": "node main.js",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "evil",
+    "insult",
+    "generator",
+    "eig"
+  ],
+  "author": "Astrydax (for custom bots email <astrydax@gmail.com> (astrydax@gmail.com)) and the <EIG team> (marvin@evilinsult.com",
+  "contributors": [
+    {
+      "name": "Example",
+      "email": "foo.bar@example.com"
+    }
+  ],
+  "license": "unlicense",
+  "bugs": {
+    "url": "https://github.com/EvilInsultGenerator/discord-bot/issues",
+    "email": "marvin@evilinsult.com"
+  },
+  "dependencies": {
+    "discord.js": "^11.2.0",
+    "request": "^2.81.0",
+    "sqlite": "^2.9.2",
+    "unescape": "^1.0.1",
+    "snyk": "^1.121.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/EvilInsultGenerator/discord-bot.git"
+  },
+  "snyk": true
 }
