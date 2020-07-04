@@ -46,7 +46,7 @@ via mail.
 
 ## Using pm2
 
-If you would like to run constantly and restart if it crashes consider using pm2. There is an excellent guide on pm2 [here](http://pm2.keymetrics.io/docs/usage/quick-start/)
+If you would like to run constantly and restart if it crashes consider using pm2. There is an excellent guide on pm2 [here](http://pm2.keymetrics.io/docs/usage/quick-start/).
 
 
 
