@@ -29,7 +29,7 @@ var ver = "1.2"
 bot.on("ready", () => {
   console.log(`Logged in as ${bot.user.username}!`);
   console.log("Evil Insult Bot Version: " + ver);
-  bot.user.setGame("v" + ver)
+  bot.user.setActivity("v" + ver)
   sql.run("CREATE TABLE IF NOT EXISTS settings (userID TEXT, language TEXT)")
 });
 

@@ -32,7 +32,7 @@
   "dependencies": {
     "discord.js": "^12.2.0",
     "request": "^2.88.2",
-    "sqlite": "^4.0.11",
+    "sqlite3": "^3.x",
     "unescape": "^1.0.1",
     "snyk": "^1.360.0"
   },
