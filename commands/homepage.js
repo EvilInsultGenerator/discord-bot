@@ -5,6 +5,6 @@ module.exports = {
         .setName('homepage')
         .setDescription('sends then homepage'),
     async execute(interaction) {
-        await interaction.reply('To generate an insult: !generate or !insult or !fuck\nTo set the language: !language\nTo visit the homepage: !homepage\nTo get help: !help');
+        await interaction.reply('Visit us https://evilinsult.com/%22%3EEvilInsult.com');
     },
 };
