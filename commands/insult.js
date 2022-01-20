@@ -4,7 +4,7 @@ const config = require('../config.json');
 module.exports = {
     data: new SlashCommandBuilder()
         .setName('insult')
-        .setDescription('sends help message'),
+        .setDescription('generate an evil insult'),
     async execute(interaction) {
 
         let url = config.mainURL;
