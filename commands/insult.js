@@ -2,7 +2,7 @@ const { SlashCommandBuilder } = require('@discordjs/builders');
 const config = require('../config.json');
 const requestHandler = require('axios').default;
 const axios = requestHandler.create({
-    timeout: 500,
+    timeout: 2000,
 });
 
 module.exports = {
