@@ -5,6 +5,6 @@ module.exports = {
         .setName('homepage')
         .setDescription('sends then homepage'),
     async execute(interaction) {
-        await interaction.reply('Visit us https://evilinsult.com/%22%3EEvilInsult.com');
+        await interaction.reply('Visit us https://evilinsult.com');
     },
 };
