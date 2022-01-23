@@ -33,7 +33,7 @@ module.exports = {
         if(interaction.customId === "language"){
             console.log(interaction.values)
             await userPrefs.set(interaction.user.id, interaction.values[0]);
-            interaction.reply({content: "Success!", ephemeral: true})
+            interaction.reply({content: ":thumbsup:", ephemeral: true})
         }
 
     },
