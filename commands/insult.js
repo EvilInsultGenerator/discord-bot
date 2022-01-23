@@ -6,11 +6,10 @@ module.exports = {
     data: new SlashCommandBuilder()
         .setName('insult')
         .setDescription('generate an evil insult'),
-    async execute(interaction) {
-
+    async execute(interaction, userPrefs) {
+        let lang = await userPrefs.get(interaction.user.id) || "en";
         let url = config.mainURL;
-        url += "lange=EN&type=json";
-
+        url += "lang=" + lang + "&type=json";
         let response = await axios.get(url);
         let data = await response.data
         console.log(data)
