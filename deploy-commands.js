@@ -12,7 +12,16 @@ for (const file of commandFiles) {
 }
 
 const rest = new REST({ version: '9' }).setToken(token);
+/* Register Commands for one Guild Only
 
 rest.put(Routes.applicationGuildCommands(clientId, guildId), { body: commands })
     .then(() => console.log('Successfully registered application commands.'))
+    .catch(console.error);
+
+ */
+
+//Register Global Commands, may take up to 1 hour to propagate
+
+rest.put(Routes.applicationCommands(clientId), { body: commands })
+    .then(() => console.log("Successfully registered application commands globally."))
     .catch(console.error);

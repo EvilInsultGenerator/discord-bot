@@ -3,7 +3,6 @@
 [![Build Status](https://travis-ci.org/EvilInsultGenerator/discord-bot.svg?branch=master)](https://travis-ci.org/EvilInsultGenerator/discord-bot)
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/6b510145357940d2897585500ce078b4)](https://www.codacy.com/gh/EvilInsultGenerator/discord-bot/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=EvilInsultGenerator/discord-bot&amp;utm_campaign=Badge_Grade)
 [![codebeatbadge](https://codebeat.co/badges/4b25afd3-ec15-40c6-a2ad-8f6624b28a72#1)](https://codebeat.co/projects/github-com-evilinsultgenerator-discord-bot-master)
-[![David](https://img.shields.io/david/EvilInsultGenerator/discord-bot.svg)](https://david-dm.org/EvilInsultGenerator/discord-bot)
 [![Known Vulnerabilities](https://snyk.io/test/github/evilinsultgenerator/discord-bot/badge.svg)](https://snyk.io/test/github/evilinsultgenerator/discord-bot)
 [![Add on Discord](https://img.shields.io/badge/discord-add%20on%20your%20server-blue?logo=discord)](https://discord.com/api/oauth2/authorize?client_id=934866584986615828&permissions=0&scope=bot%20applications.commands)
 [![Website](https://img.shields.io/website-up-down-green-red/https/shields.io.svg)](https://evilinsult.com)
@@ -22,14 +21,16 @@ https://discord.com/api/oauth2/authorize?client_id=934866584986615828&permission
 
 
 *	### PC/Mac
-    1. First you will need to have [Node.js](https://nodejs.org/) installed on your machine. You can find the latest version [here](https://nodejs.org/).
-    2. Next create a [Discord](https://discordapp.com/) account for your bot and add it to your Discord server. There is a very good guide explaining this __[here](https://github.com/reactiflux/discord-irc/wiki/Creating-a-discord-bot-&-getting-a-token)__.
-	3. Click "Clone or Download" at the top of this page. Click "Download ZIP" and extract the files.
-	4. Open a command terminal and navigate to the root folder of the bot.
-	5. While in the root folder, run the command: `npm install`
-	6. Open config.json with a text editor program of your choice.
-	7. Replace "YOUR BOT TOKEN" with your bot token you created in step 2 above
-	8. Your bot is now configured and ready to launch. Run the command: `node main.js`
+    For steps 1-5 You can use this [guide with pictures](https://discordjs.guide/preparations/) Follow everything in the heading "INSTALLATIONS & PREPARATIONS"
+    1.  First you will need to have [Node.js](https://nodejs.org/) installed on your machine. You can find the latest version [here](https://nodejs.org/).
+    2.  Next create a [Discord](https://discordapp.com/) account for your bot and add it to your Discord server.
+	3.  Click "Clone or Download" at the top of this page. Click "Download ZIP" and extract the files.
+	4.  Open a command terminal and navigate to the root folder of the bot.
+	5.  While in the root folder, run the command: `npm install`
+	6.  Open config.json with a text editor program of your choice and add your bot token, the bot ID, and the test server ID
+    7.  After setting up the config file, in your terminal run the command: node deploy-commands.js 
+        (note registering global commands for a public bot can take up to 1 hour for the commands to propagate)
+	8.  Your bot is now configured and ready to launch. Run the command: `node index.js`
 
 *	### VPS
     Each VPS service will have varying steps for connecting to your server. We will use a [DigitalOcean](https://m.do.co/c/d4e804717547) (get a $10 credit using [this](https://m.do.co/c/d4e804717547) link) droplet in this example.
@@ -38,7 +39,7 @@ https://discord.com/api/oauth2/authorize?client_id=934866584986615828&permission
     2. Next create a discord account for your bot and add it to your discord server. There is a very good guide explaining this __[here](https://github.com/reactiflux/discord-irc/wiki/Creating-a-discord-bot-&-getting-a-token)__.
     3. Open config.json with a text editor program of your choice.
 	4. Replace "YOUR BOT TOKEN" with your bot token you created in step 2 above
-	5. Login to DigitalOcean and create a new droplet. Selecting Ubuntu 16.04 is recommended. Then choose a server size and region.
+	5. Login to DigitalOcean and create a new droplet. Selecting Ubuntu 20.04 is recommended. Then choose a server size and region.
 	6. You will recieve an email from DigitalOcean with a username and password for your new droplet if you did not [setup SSH](https://www.digitalocean.com/community/tutorials/how-to-connect-to-your-droplet-with-ssh).
 	7. Go to the "Access" tab and click "Launch Console" and login with the username and password you received. You will be asked to change your password.
 	8. Install Node.js using [these commands](https://tecadmin.net/install-latest-nodejs-npm-on-ubuntu/)
@@ -47,7 +48,8 @@ https://discord.com/api/oauth2/authorize?client_id=934866584986615828&permission
 	11. On the left half of FileZilla is your local machine and the right half is your remote server. Drag the entire folder you downloaded and configured in step 1 to the window on the right to upload it to your droplet.
 	12. Back in the droplet console window navigate to the bot folder using the command: `cd discord-bot-master`. If you changed the name of the folder use `cd [folder name]`.
 	13. Run the command: `npm install`
-	14. Your bot is now configured and ready to launch. Run the command: `node main.js`
+    14. Run the command: node deploy-commands.js
+	15. Your bot is now configured and ready to launch. Run the command: `node index.js`
 
 
 ## Using pm2
@@ -91,12 +93,10 @@ We love to get in touch with you. Feel welcome to email your questions and feedb
 
 You can use [this link](https://discordapp.com/oauth2/authorize?permissions=0&scope=bot&client_id=348181398013870080) to use the bot on your [Discord server](https://discordapp.com/) or to send him [DMs](https://support.discordapp.com/hc/en-us/articles/204849987-What-are-Direct-Messages-PM-DM-).
 The bot supports those commands: <br>
-`!insult` <br>
-`!generate` <br>
-`!fuck` <br>
-`!language` <br>
-`!homepage` <br>
-`!help` <br>
+`/insult` <br>
+`/language` <br>
+`/homepage` <br>
+`/help` <br>
 
 ## Screenshots
 
