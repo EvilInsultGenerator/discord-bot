@@ -15,7 +15,7 @@ via mail.
 
 
 *	### PC/Mac
-    For steps 1-5 You can use this [guide with pictures](https://discordjs.guide/preparations/) 
+    For steps 1-5 You can use this [guide with pictures](https://discordjs.guide/preparations/) Follow everything in the heading "INSTALLATIONS & PREPARATIONS"
     1.  First you will need to have [Node.js](https://nodejs.org/) installed on your machine. You can find the latest version [here](https://nodejs.org/).
     2.  Next create a [Discord](https://discordapp.com/) account for your bot and add it to your Discord server.
 	3.  Click "Clone or Download" at the top of this page. Click "Download ZIP" and extract the files.
