@@ -5,6 +5,7 @@
 [![codebeatbadge](https://codebeat.co/badges/4b25afd3-ec15-40c6-a2ad-8f6624b28a72#1)](https://codebeat.co/projects/github-com-evilinsultgenerator-discord-bot-master)
 [![David](https://img.shields.io/david/EvilInsultGenerator/discord-bot.svg)](https://david-dm.org/EvilInsultGenerator/discord-bot)
 [![Known Vulnerabilities](https://snyk.io/test/github/evilinsultgenerator/discord-bot/badge.svg)](https://snyk.io/test/github/evilinsultgenerator/discord-bot)
+[![Add on Discord](https://img.shields.io/badge/discord-add%20on%20your%20server-blue?logo=discord)](https://discord.com/api/oauth2/authorize?client_id=934866584986615828&permissions=0&scope=bot%20applications.commands)
 [![Website](https://img.shields.io/website-up-down-green-red/https/shields.io.svg)](https://evilinsult.com)
 
 Evil Insult Generator's goal is to offer the most evil insults. Please help us to reach this honorable purpose by submitting insults
