@@ -91,7 +91,7 @@ We love to get in touch with you. Feel welcome to email your questions and feedb
 
 ## Usage
 
-You can use [this link](https://discordapp.com/oauth2/authorize?permissions=0&scope=bot&client_id=348181398013870080) to use the bot on your [Discord server](https://discordapp.com/) or to send him [DMs](https://support.discordapp.com/hc/en-us/articles/204849987-What-are-Direct-Messages-PM-DM-).
+You can use [this link](https://discord.com/api/oauth2/authorize?client_id=934866584986615828&permissions=0&scope=bot%20applications.commands) to use the bot on your [Discord server](https://discordapp.com/) or to send him [DMs](https://support.discordapp.com/hc/en-us/articles/204849987-What-are-Direct-Messages-PM-DM-).
 The bot supports those commands: <br>
 `/insult` <br>
 `/language` <br>
