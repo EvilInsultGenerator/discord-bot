@@ -23,6 +23,6 @@
     "axios": "^1.6.0",
     "discord-api-types": "^0.26.1",
     "discord.js": "^13.6.0",
-    "keyv": "^4.0.5"
+    "keyv": "^5.5.5"
   }
 }
