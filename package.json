@@ -21,7 +21,7 @@
     "@discordjs/rest": "^0.2.0-canary.0",
     "@keyv/sqlite": "^3.0.0",
     "axios": "^1.6.0",
-    "discord-api-types": "^0.26.1",
+    "discord-api-types": "^0.38.37",
     "discord.js": "^13.6.0",
     "keyv": "^4.0.5"
   }
